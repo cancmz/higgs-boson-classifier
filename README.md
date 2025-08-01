@@ -3,6 +3,7 @@
 This project is a binary classifier built using CERN’s public Higgs Boson dataset.  
 
 It aims to distinguish between **signal** events (potentially indicating the presence of a Higgs boson) and **background** events, based on high-level physics-derived features.
+> ️**For detailed scientific background, modeling pipeline, and evaluation results, please check the [project wiki](https://github.com/cancmz/higgs-boson-classifier/wiki).**
 
 ---
 
