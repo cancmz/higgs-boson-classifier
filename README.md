@@ -15,12 +15,10 @@ The goal is to design a machine learning pipeline that effectively classifies ev
 The dataset consists of 250,000 events with 30 numerical features. It was released as part of the 2014 Kaggle Higgs Boson Challenge by CERN.
 
 ---
-## Modeling Approach
-A Gradient Boosting Classifier was selected due to its strong performance in tabular data with moderate imbalance and complex feature interactions.
-
----
 ## Model Performance
 Despite the slight class imbalance in the dataset, the trained Gradient Boosting Classifier achieved a high classification performance. This indicates the model’s robustness and its ability to generalize well across both signal and background events.
+
+A Gradient Boosting Classifier was selected due to its strong performance in tabular data with moderate imbalance and complex feature interactions.
 
 ---
 ## Techniques Used
@@ -48,7 +46,7 @@ Despite the slight class imbalance in the dataset, the trained Gradient Boosting
 
 - Python
 - Jupyter Notebook
-- pandas, numpy
+- pandas
 - matplotlib, seaborn
 - scikit-learn
 
@@ -57,13 +55,16 @@ Despite the slight class imbalance in the dataset, the trained Gradient Boosting
 ## Project Structure
 
 ```
-higgs-boson-classifier/
-├── data/                       
-├── models/                     
+higgs-boson-classifier
+├── data
+│   └── training.csv
+├── models
 │   └── higgs_classifier.joblib
-├── classifier.ipynb           
-├── requirements.txt           
-└── README.md                  
+├── notebooks
+│   └── classifier.ipynb
+├── .gitignore
+├── README.md
+├── requirements.txt              
 ```
 
 ---
