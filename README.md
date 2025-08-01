@@ -11,7 +11,23 @@ It aims to distinguish between **signal** events (potentially indicating the pre
 The goal is to design a machine learning pipeline that effectively classifies events from particle collisions. This challenge was originally proposed by CERN as part of the Kaggle Higgs Boson competition.
 
 ---
+## Dataset Description
+The dataset consists of 250,000 events with 30 numerical features.  
 
+It was released as part of the 2014 Kaggle Higgs Boson Challenge by CERN.
+
+---
+## Modeling Approach
+A Gradient Boosting Classifier was selected due to its strong performance in tabular data with moderate imbalance and complex feature interactions.
+
+---
+## Model Performance
+
+Despite the slight class imbalance in the dataset, the trained Gradient Boosting Classifier achieved a high classification performance.  
+
+This indicates the model’s robustness and its ability to generalize well across both signal and background events.
+
+---
 ## Techniques Used
 
 - Exploratory Data Analysis
