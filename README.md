@@ -12,9 +12,7 @@ The goal is to design a machine learning pipeline that effectively classifies ev
 
 ---
 ## Dataset Description
-The dataset consists of 250,000 events with 30 numerical features.  
-
-It was released as part of the 2014 Kaggle Higgs Boson Challenge by CERN.
+The dataset consists of 250,000 events with 30 numerical features. It was released as part of the 2014 Kaggle Higgs Boson Challenge by CERN.
 
 ---
 ## Modeling Approach
