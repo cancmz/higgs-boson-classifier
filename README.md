@@ -23,9 +23,7 @@ A Gradient Boosting Classifier was selected due to its strong performance in tab
 ---
 ## Model Performance
 
-Despite the slight class imbalance in the dataset, the trained Gradient Boosting Classifier achieved a high classification performance.  
-
-This indicates the model’s robustness and its ability to generalize well across both signal and background events.
+Despite the slight class imbalance in the dataset, the trained Gradient Boosting Classifier achieved a high classification performance. This indicates the model’s robustness and its ability to generalize well across both signal and background events.
 
 ---
 ## Techniques Used
